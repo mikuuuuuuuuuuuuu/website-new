@@ -1,0 +1,185 @@
+
+/* css样式版 */
+body,div,h1,p,img,span,a,ul,li{/*优先把这些属性边框调0，之后好区分*/
+    padding: 0;
+    margin: 0;
+}/* 内边距，外边距 */
+
+body {
+    background-color: rgb(255, 255, 255);
+}/* 背景颜色 */
+
+.header{
+    width: 1230px;/* 元素宽 */
+    height:100px;/* 元素高 */
+    margin: auto;/*margin 属性设置为 auto，是此盒模型的布局 */
+}
+.logo{
+    float: left;/* 浮动左 */
+}
+.logo h1{
+    font-size: 27px;/* 字体大小 */
+    font-weight: bold;/* 浮动左 */
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 8px;/* 文本间距 */
+    margin-top: 35px;/* 上外边距 */
+}
+
+.search {
+    min-width: 	500px;
+    margin-top: 33px;
+    margin-left: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    line-height: 36px;
+    width: 30%;
+    float: left;/* 浮动左 */
+}
+.search input{
+    width: 70%;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+}
+.search button{
+    width: 100px;
+    height: 36px;
+    border: 0;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    float: right;
+}
+
+
+.log_register{
+    width: 80px;/* 元素宽 */
+    height:30px;/* 元素高 */
+    float:right;
+}
+
+.service{
+    float:right;
+}
+.service p{
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-top: 35px;
+}
+.service p img{
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;/* vertical-align 属性设置元素的垂直对齐方式。*/
+}
+
+.main_little{
+    height: 50px;
+    width: 100%;
+    background-color:rgba(173, 170, 170, 0.2);;/*导航栏背景*/
+    /*border: 1px solid #003344;*/
+}
+.main_little ul
+{
+    width:1000px;
+    height: 50px;
+    margin: auto;
+}
+.main_little ul li{
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    line-height: 38px;/*line-height 属性设置行间的距离（行高）。*/
+    vertical-align: middle;
+    float: left;
+}
+
+.main_little ul li:hover{
+    background: lightgray;
+}
+
+.clear{
+    clear: both;
+}
+
+.pbackgound{
+    height: 500px;
+    width: 1500px;
+    margin: auto;
+}
+
+.main{
+    height: 500px;
+    width: 1230px;
+    margin: auto;
+}
+.main .l{
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    width: 350px;
+    margin-right: 50px;
+    float: left;
+}
+
+.main .l h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main .c{
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    width: 350px;
+    margin-right: 50px;
+    float: left;
+}
+
+.main .c h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main .r{
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    width: 350px;
+    margin-right: 50px;
+    float: left;
+}
+
+.main .r h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.foot{
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    padding-top: 50px;
+}
+.foot p{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #F9E9E9;
+}
+.foot p span{
+    padding: 0 20px ;
+}
+
+a{
+    color: black;
+}
+/* 将鼠标悬停在链接上 */
+a:hover {
+    color: green;
+}
+
+/* 被选择的链接 */
+a:active {
+    color: blue;
+}

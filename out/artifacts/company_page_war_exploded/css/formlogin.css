@@ -1,0 +1,47 @@
+
+/* css样式版 */
+body,div,h1,p,img,span,a,ul,li{/*优先把这些属性边框调0，之后好区分*/
+    padding: 0;
+    margin: 0;
+}
+/* 大盒子*/
+.formlogin{
+    display: block;
+    height: 600px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*标题盒子 */
+.formname{
+    background: #fff;
+    border-bottom: 2px solid #f5f5f5;
+    color: #222;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+/* 表单盒子 */
+.formmain{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+
+.formmain .quc-tip{
+    display: block;
+    height: 20px;
+    margin: 7px 0;
+}
+.formmain .textform{
+    height: 40px;
+    width: 400px;
+}
+.formmain .input-mobile{
+    height: 34px;
+    width: 392px;
+}
+.formmain .input-password{
+    height: 34px;
+    width: 392px;
+}

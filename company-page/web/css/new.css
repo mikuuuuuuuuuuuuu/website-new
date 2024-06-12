@@ -1,0 +1,45 @@
+/* css样式版 */
+body,div,h1,p,img,span,a,ul,li{/*优先把这些属性边框调0，之后好区分*/
+    padding: 0;
+    margin: 0;
+}/* 内边距，外边距 */
+.newmain{
+    margin: 0 auto;
+    width: 1240px;
+}
+.newmain .title{
+    display: inline-block;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 40px;
+}
+.from {
+    width: 96%;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #F5F5F5;
+    color: #666666;
+}
+.from .date{
+    display:inline-block;
+    padding-top: 15px;
+    padding-left:170px;
+}
+.from .fromwhere{
+    padding: 10px 140px;
+}
+.from .witer{
+    padding: 10px 140px;
+
+}
+.article{
+    width: 100%;
+}
+.article p{
+
+    padding: 15px 100px;
+    letter-spacing: 2.3px;
+    text-indent: 2em;
+}
